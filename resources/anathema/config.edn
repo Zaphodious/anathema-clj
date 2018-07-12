@@ -1,0 +1,12 @@
+{:duct.core/project-ns  anathema
+ :duct.core/environment :production
+
+ :duct.module/logging {}
+ :duct.module.web/site {}
+ :duct.module/cljs {:main anathema.client}
+
+ :duct.module/ataraxy
+ {[:get "/example"] [:example]}
+
+ :anathema.handler/example
+ {}}
