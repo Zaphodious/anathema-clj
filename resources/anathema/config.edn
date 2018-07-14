@@ -9,4 +9,6 @@
  {[:get "/example"] [:example]}
 
  :anathema.handler/example
+ {}
+ :anathema.handler/homepage
  {}}
