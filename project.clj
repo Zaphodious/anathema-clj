@@ -9,6 +9,7 @@
                  [duct/module.ataraxy "0.2.0"]
                  [duct/module.cljs "0.3.2"]
                  [datascript "0.16.6"]
+                 [bidi "2.1.3"]
                  [rum "0.11.2"]]
   :plugins [[duct/lein-duct "0.10.6"]]
   :main ^:skip-aot anathema.main

@@ -5,10 +5,6 @@
  :duct.module.web/site {}
  :duct.module/cljs {:main anathema.client}
 
- :duct.module/ataraxy
- {[:get "/example"] [:example]}
+ :duct.router/cascading [#ig/ref :anathema.router/site]
 
- :anathema.handler/example
- {}
- :anathema.handler/homepage
- {}}
+ :anathema.router/site {}}
